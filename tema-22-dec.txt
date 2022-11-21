@@ -1,0 +1,12 @@
+####getCartProducts --- void. primeste cart si products --> modifica direct cart.Products
+
+####getOrders -- get a list of carts based on a list of orders
+
+!! handle exceptions -- generic
+
+--services: refactorizare  ++ unit tests for services (try to write for )
+
+?????-- saveChanges() imediat la finalul metodei (INEFICIENT) --> add, remove (fara savechanges)
+							 --> saveChanges trebuie trigaruit manual din service
+
+--> Mai tarziu -- refactorizare: folosire lucruri generice, mai multe proiectele (domeniu, application logic, infrastructura), sqrs

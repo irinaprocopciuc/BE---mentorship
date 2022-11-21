@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApiCleanArchitecture\\StoreWebApi.APIs.csproj": {}
+  },
+  "projects": {
+    "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj",
+        "projectName": "StoreWebApi.Application",
+        "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj",
+        "packagesPath": "C:\\Users\\iprocopc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iprocopc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj": {
+                "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj",
+        "projectName": "StoreWebApi.Domain",
+        "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\iprocopc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iprocopc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Infrastructure\\StoreWebApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Infrastructure\\StoreWebApi.Infrastructure.csproj",
+        "projectName": "StoreWebApi.Infrastructure",
+        "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Infrastructure\\StoreWebApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\iprocopc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iprocopc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj": {
+                "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj"
+              },
+              "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj": {
+                "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApiCleanArchitecture\\StoreWebApi.APIs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApiCleanArchitecture\\StoreWebApi.APIs.csproj",
+        "projectName": "StoreWebApi.APIs",
+        "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApiCleanArchitecture\\StoreWebApi.APIs.csproj",
+        "packagesPath": "C:\\Users\\iprocopc\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApiCleanArchitecture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iprocopc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj": {
+                "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Application\\StoreWebApi.Application.csproj"
+              },
+              "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj": {
+                "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Core\\StoreWebApi.Domain.csproj"
+              },
+              "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Infrastructure\\StoreWebApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Work\\Mentorship\\BE\\StoreWebApiCleanArchitecture\\StoreWebApi.Infrastructure\\StoreWebApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.15, 5.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

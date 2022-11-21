@@ -1,0 +1,8 @@
+BE Mentorship - First Meeting Notes
+
+- setup proiect web api (.net core)
+- online shop API (flow, refactor)
+- integration test
+
+Next time:
+- ne uitam peste API-ul de Notes
